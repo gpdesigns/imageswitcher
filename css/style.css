@@ -1,0 +1,86 @@
+/*
+	Basic CSS Reset
+========================================== */
+
+* {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	font:14px Georgia serif;
+}
+
+a {
+	text-decoration: none;
+	color:#000;
+}
+
+#switcher-wrapper {
+	width:240px;
+	margin: 20px auto;
+	position:relative
+}
+
+#switcher-wrapper a {
+	display:block;
+	width:240px;
+	height:160px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#one {
+	background:url(../images/1.jpg) no-repeat;
+}
+
+#two {
+		background:url(../images/2.jpg) no-repeat;
+}
+
+#three {
+		background:url(../images/3.jpg) no-repeat;
+}
+
+#four {
+		background:url(../images/4.jpg) no-repeat;
+}
+
+#switcher-wrapper a span {
+	position: absolute;
+	width:100px;
+	background: #eee;
+	text-align: center;
+}
+
+#one span {
+	left:0; 
+	bottom:-35px;
+}
+
+#two span {
+	left:0; 
+	bottom:-65px;
+}
+
+#three span {
+	left:120px; 
+	bottom:-35px;
+}
+
+#four span {
+	left:120px; 
+	bottom:-65px;
+}
+
+#switcher-wrapper a:hover {z-index:1}
+
+#switcher-wrapper a:hover span {background:#ccc}
+
+
+
+
+
+
+
